@@ -10,5 +10,4 @@
 - 无需生成 html 文件 
 - 众多主题 
 
-[GitHub](https://github.com/docsifyjs/docsify/) 
-[快速上手](/快速上手/开始)
+[Docsify GitHub](https://github.com/docsifyjs/docsify/) 
