@@ -1,9 +1,9 @@
 <!-- _navbar.md -->
 
 * 链接到我
-  - [CSDN | 宁在春](https://blog.csdn.net/weixin_45821811?type=blog)
-  - [掘金 | 宁在春](https://juejin.cn/user/2859142558267559)
-
+  - [Yule-Hexo](https://yuleweici.com/)
+  - [Yule-Vuepress](https://yuleweici.com/yuleweici-vuepress/)
+  - [Yule-Docsify](http://yuleweici.com/yuleweici-docsify/#/)
 
 * 友情链接
   * [Docsify](https://docsify.js.org/#/)
