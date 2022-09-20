@@ -11,4 +11,4 @@
 - 众多主题 
 
 [Docsify GitHub](https://github.com/docsifyjs/docsify/) 
-[开始使用 Let Go](/README.md)
+[开始使用](/README.md)
