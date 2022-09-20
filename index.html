@@ -41,7 +41,7 @@
                 // 小屏设备下合并导航栏到侧边栏
                 mergeNavbar: true,
                 coverpage: true,
-                sidebarDisplayLevel: 1, // set sidebar display level
+                // sidebarDisplayLevel: 1, // set sidebar display level
             }
         </script>
         <script>
@@ -51,7 +51,7 @@
                 search: {
                     maxAge: 86400000, // 过期时间，单位毫秒，默认一天
                     paths: auto,// 注意：仅适用于 paths: 'auto' 模式
-                    placeholder: 'Type to search',
+                    placeholder: '搜索',
                     // 支持本地化
                     placeholder: {
                         '/zh-cn/': '搜索',
@@ -59,18 +59,15 @@
                     },
                     noData: 'No Results!',
                     // 支持本地化
-                    noData: {
-                        '/zh-cn/': '找不到结果',
-                        '/': 'No Results'
-                    },
+                    noData: '找不到结果',
 
                     // 搜索标题的最大层级, 1 - 6
-                    depth: 2,
+                    depth: 4,
                     // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
                     // 匹配到的字符串将被用来识别索引
                     hideOtherSidebarContent: false,
-                    namespace:'予乐',
-                    pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+                    namespace:'Yule-Docsify',
+                    // pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
                 }
             }
         </script>
