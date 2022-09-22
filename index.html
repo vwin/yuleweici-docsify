@@ -59,10 +59,10 @@
                     paths: auto,// 注意：仅适用于 paths: 'auto' 模式
                     placeholder: '搜索',
                     // 支持本地化
-                    placeholder: {
-                        '/zh-cn/': '搜索',
-                        '/': 'Type to search'
-                    },
+                    // placeholder: {
+                    //    '/zh-cn/': '搜索',
+                    //   '/': 'Type to search'
+                    //},
                     noData: 'No Results!',
                     // 支持本地化
                     noData: '找不到结果',
@@ -73,7 +73,7 @@
                     // 匹配到的字符串将被用来识别索引
                     hideOtherSidebarContent: false,
                     namespace:'Yule-Docsify',
-                    // pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+                    pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
                 }
             }
         </script>
@@ -90,7 +90,7 @@
 
         <!-- 侧边栏目录折叠 plugins -->
         <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-        <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+        <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
         <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
         <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
         <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
@@ -98,6 +98,6 @@
         <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-go.min.js"></script>
         <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
         <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
-
+        <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
     </body>
 </html>
